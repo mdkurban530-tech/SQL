@@ -1,0 +1,13 @@
+Common Table Expressions (CTEs)
+1 Definition: A CTE is a temporary result set that you can reference within a SELECT, INSERT, UPDATE, or DELETE statement. It is defined using the WITH keyword.
+2 Readability: CTEs can make complex queries more readable and easier to manage, especially when dealing with multiple steps or recursive queries.
+3 Reusability: You can reference a CTE multiple times within the same query, which can be useful for breaking down complex logic into simpler parts.
+4 Recursion: CTEs support recursion, which allows you to perform operations like traversing hierarchical data.
+5 Naming: CTEs must be named, which helps in understanding and maintaining the query.
+
+Subqueries
+1 Definition: A subquery is a query nested inside another query. It can be used in various clauses like SELECT, FROM, WHERE, etc.
+2 Readability: Subqueries can sometimes make queries harder to read, especially if nested deeply. However, they are useful for quick, one-time calculations or filtering.
+3 Reusability: Subqueries are typically not reusable within the same query. Each subquery is executed independently.
+4 Recursion: Subqueries do not support recursion.
+5 Naming: Subqueries do not need to be named, except in some cases like when used in the FROM clause (then they are called derived tables).
