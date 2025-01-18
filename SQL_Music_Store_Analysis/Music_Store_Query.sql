@@ -91,7 +91,7 @@ group by 2,3,4
 order by 1 desc
 )
 select * from popular_genre
-where row_no <2
+where row_no <=1
 order by 2 asc;
 
 /*Write a query that determines the customer that has spent the most on music for each
@@ -108,4 +108,4 @@ with customer_with_country as(
     order by 3 asc ,4 desc
 )
 select * from customer_with_country
-where row_no<2
+where row_no<=1
